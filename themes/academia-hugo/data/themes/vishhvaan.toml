@@ -5,12 +5,12 @@ name = "Vishhvaan"
 light = true
 
 # Primary
-primary = "#60e693"
+primary = "#5bbf17"
 
 # Menu
 menu_primary = "#fff"
 menu_text = "#34495e"
-menu_text_active = "#60e693"
+menu_text_active = "#5bbf17"
 menu_title = "#2b2b2b"
 
 # Home sections
