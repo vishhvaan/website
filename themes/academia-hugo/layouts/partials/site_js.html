@@ -130,7 +130,7 @@
     </script>
     {{ end }}
 
-    {{ $js_comment := printf "/* Source Themes academia v%s | https://sourcethemes.com/academic/ */\n" site.Data.academia.version }}
+    {{ $js_comment := printf "/* Academia mod by Vishhvaan v%s | https://github.com/vishhvaan/website */\n" site.Data.academia.version }}
     {{ $js_bundle_head := $js_comment | resources.FromString "js/bundle-head.js" }}
     {{ $js_linebreak := "\n" | resources.FromString "js/linebreak.js" }}{{/* Fix no line break after Bootstrap JS causing error. */}}
     {{ $js_academia := resources.Get "js/academia.js" }}
