@@ -1,5 +1,5 @@
 ---
-title: "An example preprint / working paper"
+title: "A low-cost, open source, self-contained bacterial EVolutionary biorEactor (EVE)"
 authors:
 - vishhvaan
 date: "2019-04-07T00:00:00Z"
@@ -18,10 +18,10 @@ publication_types: ["3"]
 publication: ""
 publication_short: ""
 
-Abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+Abstract: Recently, a concerted effort has been made to study the evolution of drug resistance in organisms at increasingly smaller time scales and in a high-throughput manner. One effective approach is through the use of a bioreactor, such as a morbidostat – a device that can continuously culture bacteria and monitor this growth in real time. These devices can be technically challenging and expensive to implement for scientists, let alone students or teachers who seek an innovative and intuitive way of studying evolution. We aim to provide a flexible and open source automated continuous culture device framework to study biological concepts such as population dynamics and evolution; a framework that is capable of replicating morbidostat, chemostat, and turbidostat functionality. Within the educational environment, our goal is to foster interaction and interest between the engineering and biological fields by allowing teachers and students to build their own systems and design experiments on the proposed open framework. We present a continuous culture device designed for bacterial culture that is easily and inexpensively constructed, lends itself to evolution experiments, and can be used both in the academic and educational environments.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Manuscript for the automated culture system I developed.
 
 tags:
 - medicine
@@ -64,8 +64,3 @@ projects:
 # slides: example
 ---
 
-{{% alert note %}}
-Click the *Slides* button above to demo academia's Markdown slides feature.
-{{% /alert %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
