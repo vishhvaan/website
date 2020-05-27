@@ -5,7 +5,9 @@ summary: The EVolutionary biorEactor is a tool to study the evolution of drug re
 authors:
 - vishhvaan
 tags:
-- evolution
+- medicine
+- python
+- hardware
 categories: []
 date: "2016-04-20T00:00:00Z"
 lastmod: "2019-04-17T00:00:00Z"
