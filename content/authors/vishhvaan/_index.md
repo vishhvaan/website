@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Vishhvaan Gopalakrishnan, M.D., M.S.E.
+name: Vishhvaan Gopalakrishnan
 avatar_image: "pro_face.jpg"
 # Username (this should match the folder name)
 authors:
@@ -14,7 +14,7 @@ btn:
 superuser: true
 
 # Role/position
-role: Postdoctoral Fellow
+role: M.D., M.S.E. | Postdoctoral Fellow
 
 # Organizations/Affiliations
 organizations:
