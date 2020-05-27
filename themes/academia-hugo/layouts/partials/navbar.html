@@ -7,6 +7,7 @@
         {{- if site.Params.logo -}}
         <img src="{{ printf "/img/%s" site.Params.logo | relURL }}" alt="{{ site.Title }}">
         {{- else -}}
+        <img src="{{ printf "/img/%s" site.Params.icon | relURL }}" alt="{{ site.Title }}" style="float:left;margin:0px 8px">
         {{- site.Title -}}
         {{- end -}}
       </a>
