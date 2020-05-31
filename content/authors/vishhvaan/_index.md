@@ -77,6 +77,6 @@ user_groups:
 - Visitors
 ---
 
-After my masters in biomedical engineering at the University of Michigan, I spent time getting my MD at the Case Western Reserve University Medical School.
+I am a biomedical engineer who went to medical school. My alma maters are the University of Michigan at Ann Arbor and Cleveland Clinic Lerner College of Medicine at Case Western Reserve University respectively.
 
-My broad goals are to engineer solutions to medical problems. While I posess hardware design expertice, I prefer to build software. 
+My broad goals are to engineer solutions to medical problems. I have taken on hardware and software projects before. In the future, I aim to focus on software projects. 
