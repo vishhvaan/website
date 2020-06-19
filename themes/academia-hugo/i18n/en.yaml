@@ -72,6 +72,9 @@
 - id: interests
   translation: Interests
 
+- id: books
+  translation: Currently Reading
+
 - id: education
   translation: Education
 

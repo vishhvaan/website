@@ -44,6 +44,9 @@ education:
     institution: University of Michigan at Ann Arbor
     year: 2012
 
+books:
+- The Eye of the World by Robert Jordan
+
 # Social/academia Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
