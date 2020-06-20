@@ -5,8 +5,7 @@ summary: Hypervisiors play an important role in my home server setups. I use thi
 authors:
 - vishhvaan
 tags:
-- medicine
-- python
+- software
 - hardware
 categories: []
 date: "2020-06-19T00:00:00Z"

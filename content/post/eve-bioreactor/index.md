@@ -6,7 +6,7 @@ authors:
 - vishhvaan
 tags:
 - medicine
-- python
+- software
 - hardware
 categories: []
 date: "2016-04-20T00:00:00Z"
