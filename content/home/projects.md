@@ -30,8 +30,8 @@ subtitle = ""
     tag = "medicine"
   
   [[content.filter_button]]
-    name = "Python"
-    tag = "python"
+    name = "Software"
+    tag = "software"
   
   [[content.filter_button]]
     name = "Hardware"
