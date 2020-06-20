@@ -34,7 +34,7 @@ date_format = "Jan 2006"
   url = ""
   date_start = "2014-05-01"
   date_end = ""
-  description = "Provided full funding during medical school."
+  description = "Provided full funding for medical school."
   
 [[item]]
   organization = "University of Michigan at Ann Arbor"

@@ -77,7 +77,6 @@ email: ""
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups:
 - Researchers
-- Visitors
 ---
 
 I am a biomedical engineer who went to medical school. My alma maters are the University of Michigan at Ann Arbor and Cleveland Clinic Lerner College of Medicine at Case Western Reserve University respectively.
