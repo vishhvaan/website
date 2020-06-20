@@ -25,7 +25,7 @@ summary: Manuscript for the automated culture system I developed.
 
 tags:
 - medicine
-- python
+- software
 - hardware
 featured: false
 
