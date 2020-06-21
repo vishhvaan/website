@@ -15,27 +15,37 @@ title = "Skills"
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
+  icon = "user-md"
+  icon_pack = "fas"
+  name = "Medicine"
+
+[[feature]]
   icon = "python"
   icon_pack = "fab"
   name = "Python"
-  parcent = "90%"
   
 [[feature]]
   icon = "users"
   icon_pack = "fas"
   name = "Leadership"
-  parcent = "100%"  
   
 [[feature]]
   icon = "docker"
   icon_pack = "fab"
-  name = "Docker"
-  parcent = "80%"
+  name = "Containerization / Virtualization"
   
 [[feature]]
   icon = "searchengin"
   icon_pack = "fab"
   name = "Research"
-  parcent = "95%"
 
+[[feature]]
+  icon = "chart-bar"
+  icon_pack = "far"
+  name = "Data Analysis"
+
+[[feature]]
+  icon = "linux"
+  icon_pack = "fab"
+  name = "Unix"
 +++
