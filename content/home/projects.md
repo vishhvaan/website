@@ -20,22 +20,22 @@ subtitle = ""
   
   # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
   filter_default = 0
+ 
+ #  [[content.filter_button]]
+ #   name = "All"
+ #   tag = "*"
   
-  [[content.filter_button]]
-    name = "All"
-    tag = "*"
+ # [[content.filter_button]]
+ #   name = "Medicine"
+ #   tag = "medicine"
   
-  [[content.filter_button]]
-    name = "Medicine"
-    tag = "medicine"
+ # [[content.filter_button]]
+ #   name = "Python"
+ #   tag = "python"
   
-  [[content.filter_button]]
-    name = "Software"
-    tag = "software"
-  
-  [[content.filter_button]]
-    name = "Hardware"
-    tag = "hardware"
+ # [[content.filter_button]]
+ #   name = "Hardware"
+ #   tag = "hardware"
   
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
