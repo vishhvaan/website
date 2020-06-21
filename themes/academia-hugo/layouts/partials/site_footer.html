@@ -10,7 +10,7 @@
         {{ end }}
         <p>
           {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} &middot; {{ end }}
-	  {{ now.Format "03:04 :: Monday, Jan 02, 2006" }}
+	  {{ now.Format "Statically generated on Monday; Jan 02, 2006" }}
         </p>
       </div>
       <div class="col-md-6">
