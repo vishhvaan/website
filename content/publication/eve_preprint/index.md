@@ -2,11 +2,11 @@
 title: "A low-cost, open source, self-contained bacterial EVolutionary biorEactor (EVE)"
 authors:
 - vishhvaan
-date: "2019-04-07T00:00:00Z"
+date: "2019-10-10T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2019-10-10T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -15,13 +15,13 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
+publication: "bioRxiv"
 publication_short: ""
 
 Abstract: Recently, a concerted effort has been made to study the evolution of drug resistance in organisms at increasingly smaller time scales and in a high-throughput manner. One effective approach is through the use of a bioreactor, such as a morbidostat – a device that can continuously culture bacteria and monitor this growth in real time. These devices can be technically challenging and expensive to implement for scientists, let alone students or teachers who seek an innovative and intuitive way of studying evolution. We aim to provide a flexible and open source automated continuous culture device framework to study biological concepts such as population dynamics and evolution; a framework that is capable of replicating morbidostat, chemostat, and turbidostat functionality. Within the educational environment, our goal is to foster interaction and interest between the engineering and biological fields by allowing teachers and students to build their own systems and design experiments on the proposed open framework. We present a continuous culture device designed for bacterial culture that is easily and inexpensively constructed, lends itself to evolution experiments, and can be used both in the academic and educational environments.
 
 # Summary. An optional shortened abstract.
-summary: Manuscript for the automated culture system I developed.
+summary: Manuscript for the autonomous culture system I developed.
 
 tags:
 - medicine
@@ -32,7 +32,7 @@ featured: false
 links:
 # - name: Custom Link
 #   url: http://example.org
-url_pdf: https://www.biorxiv.org/content/10.1101/729434v1 
+url_pdf: https://www.biorxiv.org/content/10.1101/729434v2 
 # url_code: '#'
 # url_dataset: '#'
 # url_poster: '#'
