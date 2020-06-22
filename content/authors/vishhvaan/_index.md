@@ -22,7 +22,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: At the intersection of engineering and medicine.
 
 # Should the user's education and interests be displayed?
 display_education: true
