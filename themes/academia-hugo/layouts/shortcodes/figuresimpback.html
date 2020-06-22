@@ -1,0 +1,14 @@
+{{ if .Get "src" }}
+  <figure class="{{ with .Get "position"}}{{ . }}{{ else -}} left {{- end }}" >
+    {{ $imgsrc := .Get "src" | safeURL }}
+    {{ $alt := .Get "alt" }}
+    {{ $style := .Get "style" }}
+
+    {{ range $pimgsrc := slice $imgsrc }}
+    <img src="{{ $pimgsrc }}" alt="{{ $alt }}" style="{{ $style }}" />
+    {{ end }}
+    {{ if .Get "caption" }}
+      <figcaption class="{{ with .Get "captionPosition"}}{{ . }}{{ else -}} center {{- end }}" {{ with .Get "captionStyle" }} style="{{ . | safeCSS }}" {{ end }}>{{ .Get "caption" }}</figcaption>
+    {{ end }}
+  </figure>
+{{ end }}

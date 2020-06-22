@@ -1,7 +1,6 @@
 ---
-title: "UV Sterilization of Personal Protective Equipment with Idle Laboratory Biosafety Cabinets During the Covid-19 Pandemic"
+title: "UV Sterilization of Personal Protective Equipment with Idle Laboratory Biosafety Cabinets During the COVID-19 Pandemic"
 authors:
-- vishhvaan
 date: "2020-04-15T00:00:00Z"
 doi: ""
 
