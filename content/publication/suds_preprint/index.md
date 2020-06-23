@@ -1,7 +1,6 @@
 ---
 title: "UV-C Tower for point-of-care decontamination of filtering facepiece respirators"
 authors:
-- vishhvaan
 date: "2020-06-21T00:00:00Z"
 doi: ""
 
