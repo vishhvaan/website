@@ -1,7 +1,6 @@
 ---
 title: "A low-cost, open source, self-contained bacterial EVolutionary biorEactor (EVE)"
 authors:
-- vishhvaan
 date: "2019-10-10T00:00:00Z"
 doi: ""
 
