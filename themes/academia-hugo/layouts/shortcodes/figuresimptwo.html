@@ -1,0 +1,19 @@
+{{ if .Get "src" }}
+  <figure class="{{ with .Get "position"}}{{ . }}{{ else -}} left {{- end }}" >
+    {{ $imgsrc := .Get "src" | safeURL }}
+    {{ $imgsrc2 := .Get "src2" | safeURL }}
+    {{ $alt := .Get "alt" | plainify}}
+    {{ $style := .Get "style" | safeCSS }}
+    <div class="row justify-content-md-center">
+	    <div class="column">
+		    <img src="{{ $imgsrc }}" alt="{{ $alt }}" style="{{ $style }}" />
+	    </div>
+	    <div class="column">
+		    <img src="{{ $imgsrc2 }}" alt="{{ $alt }}" style="{{ $style }}" />
+	    </div>
+    </div>
+    {{ if .Get "caption" }}
+      <figcaption class="{{ with .Get "captionPosition"}}{{ . }}{{ else -}} center {{- end }}" {{ with .Get "captionStyle" }} style="{{ . | safeCSS }}" {{ end }}>{{ .Get "caption" }}</figcaption>
+    {{ end }}
+  </figure>
+{{ end }}
