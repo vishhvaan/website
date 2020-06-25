@@ -9,13 +9,9 @@ $sta-font-size: {{ $scr.Get "font_size" }};
 $sta-font-size-small: {{ $scr.Get "font_size_small" }};
 
 $sta-font-body: {{ $scr.Get "body_font" }};
-$sta-font-body-src: {{ $scr.Get "body_font_src" }};
 $sta-font-heading: {{ $scr.Get "heading_font" }};
-$sta-font-heading-src: {{ $scr.Get "heading_font_src" }};
 $sta-font-nav: {{ $scr.Get "nav_font" }};
-$sta-font-nav-src: {{ $scr.Get "nav_font_src" }};
 $sta-font-mono: {{ $scr.Get "mono_font" }};
-$sta-font-mono-src: {{ $scr.Get "mono_font_src" }};
 
 $sta-primary: {{ $scr.Get "primary" }};
 $sta-primary-light: lighten($sta-primary, $sta-lighten-percentage);
