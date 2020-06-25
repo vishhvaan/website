@@ -2,7 +2,7 @@
 name = "Vishhvaan"
 
 # Optional Google font URL
-google_fonts = "IBM+Plex+Sans:400,700|Inconsolata"
+google_fonts = "IBM+Plex+Sans:200,400,700|Inconsolata"
 
 # Font families
 heading_font = "IBM Plex Sans"
