@@ -48,7 +48,7 @@ Looking further, we wanted a way to reduce both decontamination time and produce
 
 ### Engineering
 
-We started with a design where users would drop their used masks into the machine where it would be moved with a conveyor belt to an outlet during which it would be exposed to UV irradiation on both sides of the masks.
+We started with a design where users would drop their used masks into the machine where it would be moved with a conveyor belt to an outlet, during which it would be exposed to UV irradiation on both sides of the masks.
 
 {{< figure src="conveyorbelt.jpg" alt="BSC" position="right" caption="Initial conveyor belt design" width="400px">}}
 
@@ -57,7 +57,7 @@ After teaming up with think[box], prototype 1 was built using quartz rods to ens
 {{< figuresimptwo  src="protov1.JPG" src2="v1withmask.gif" style="max-height: 300px ; padding:20px ; width: auto; height: auto;" position="center" caption="Prototype version 1 with conveyor belt design" captionStyle="text-align: center;" >}}
 
 {{< figuresimp src="fanonpv1.jpg" position="right" style="float: right;width: 18%;padding: 0px; min-width: 200px; " >}}
-During testing to characterize UV output from the bulbs, bulb temperature was observed to played a dominant role (possibly central) role on UV output. Ventilation was to be desired and the lateral design of the box prevented easy solutions. We also wanted to increase the amount of UV exposure the mask was getting to significantly reduce the amount of time the mask would need to be in the box.
+During testing to characterize UV output from the bulbs, bulb temperature was observed to played a dominant role role on UV output. Ventilation was to be desired and a lateral box design prevented easy solutions. We also wanted to increase the amount of UV exposure the mask was getting to significantly reduce the amount of time the mask would need to be in the box.
 
 Version 2 was an improvement on multiple fronts. More bulbs (and therefore UV output), temperature sensor incorporation, door switch which activated the UV bulbs, and fans that activated based on temperature within the box. Communication between the electronics was accomplished with an Arduino Nano.
 
@@ -67,13 +67,13 @@ Version 3 improved cable management and physical construction of the box. ePTFE 
 
 {{< gallery album="pv3">}}
 
-Version 4 yet again iterated on the material of the box, this time to an aluminum composite which does not have pores and is able to withstand they harsh cleaning standards within hospitals. It also employed relays (timed and standard) for control circuity, eliminating the need for the Arduino.
+Version 4 yet again iterated on the material of the box, this time to an aluminum composite which does not have pores and is able to withstand the rigourous material standards to allow for cleaning within hospitals. It also employed relays (timed and standard) for control circuity, eliminating the need for the Arduino.
 
 {{< gallery album="pv4">}}
 
 <br/><br/>
 
-Commercial UV-C test strips became saturated within a matter of seconds within the box. This meant that we were hitting the upper limit of detection of the test strips very quickly. 
+Commercial UV-C test strips became saturated within a matter of seconds within the box. This meant that we were hitting the upper limit of detection of the test strips very quickly. The strips we were using in our tests get saturated at $1J/cm^2$.
 
 {{< gallery album="striptests">}}
 
@@ -92,12 +92,12 @@ This biological testing is yet on-going and will be disseminated as soon as it b
 
 ### Summary
 
-Within 60 seconds, we are achieving energy outputs of at least $2J/cm^2$ delivered to the mask, surpassing CDC recommendations for mask reuse. We are able to accomplish this with a simple circuit and many commonly attainable parts. We envision SUDS decontamination not only a utility to American hospitals during the COVID pandemic, but also to hospitals around the world during future epidemics when FFR shortages are a daily reality.
+Within 60 seconds, we are achieving energy outputs of at least $2J/cm^2$ delivered to the mask, surpassing CDC recommendations for mask reuse. This is accomplished with a simple circuit and many commonly attainable parts. SUDS decontamination is not only a utility to American hospitals during the COVID pandemic, but also to hospitals around the world during future epidemics when FFR shortages are a daily reality.
 
 Even with high UV power output, further testing is needed to ensure that adequate amounts of UVGI are reaching the inner portions of the mask. Biologic testing will definitively answer questions about device efficacy by testing a clinical relevant endpoint: survival of virus particles after SUDS decontamination.
 
 All of our findings and additional discussion is available in our [pre-print]({{< ref "publication/suds_preprint/index.md" >}}) manuscript of the device. 
 
-We aim to make it as easy as possible for hospitals and makers to download the designs and implement the box themselves. We have released the designs, bill of materials, and results of the testing on [Github](https://github.com/TheoryDivision/SUDS). Additional details about the engineering behind the box can be found in the technical document. 
+We aim to make it as easy as possible for hospitals and makers to download the designs and implement the box themselves. The designs, bill of materials, and results of the testing are on [Github](https://github.com/TheoryDivision/SUDS). Additional details about the engineering behind the box can be found in the technical document. 
 
 **Shout-out to the team: Badar J Kayani, Davis T Weaver, Eshan S King, Emily Dolson, Nikhil Krishnan, Julia Pelesko, Michael J Scott, Masahiro Hitomi, Jacob G. Scott, Ian Charnas**

@@ -1,7 +1,7 @@
 ---
 title: 'A comparison of Hyper-V and ESXi for home server usage.'
-subtitle: 'Hypervisiors play an important role in my home server setups. I use this post to explain why I use hypervisors and what the advantages and disadvantages of each are.'
-summary: Hypervisiors play an important role in my home server setups. I use this post to explain why I use hypervisors and what the advantages and disadvantages of each are.
+subtitle: 'Hypervisors are software that creates and runs virtual machines (VMs). The utility of using virtual machines for home jobs lies in compartmentalizing groups of jobs and automating communication between jobs. I take a look at popular hypervisors from VMware and Microsoft and discuss how they can be used at home.'
+summary: Hypervisor play an important role in my home server setups. Here I explain why I use hypervisors as well as the advantages and disadvantages of the VMware and Microsoft offerings.
 authors:
 tags:
 - software
@@ -29,3 +29,5 @@ projects: []
 
 # Set captions for image gallery.
 ---
+
+Virtual machines are akin to a sandboxed computer with an operating system and hardware. They are allocated resources from the hypervisor and are refered to as guests.
