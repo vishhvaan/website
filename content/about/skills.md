@@ -45,6 +45,11 @@ title = "Skills"
   name = "Data Analysis"
 
 [[feature]]
+  icon = "server"
+  icon_pack = "fas"
+  name = "Machine Learning"
+
+[[feature]]
   icon = "linux"
   icon_pack = "fab"
   name = "Unix"
