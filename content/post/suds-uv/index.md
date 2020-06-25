@@ -57,7 +57,7 @@ After teaming up with think[box], prototype 1 was built using quartz rods to ens
 {{< figuresimptwo  src="protov1.JPG" src2="v1withmask.gif" style="max-height: 300px ; padding:20px ; width: auto; height: auto;" position="center" caption="Prototype version 1 with conveyor belt design" captionStyle="text-align: center;" >}}
 
 {{< figuresimp src="fanonpv1.jpg" position="right" style="float: right;width: 18%;padding: 0px; min-width: 200px; " >}}
-During testing to characterize UV output from the bulbs, bulb temperature was observed to played a dominant role role on UV output. Ventilation was to be desired and a lateral box design prevented easy solutions. We also wanted to increase the amount of UV exposure the mask was getting to significantly reduce the amount of time the mask would need to be in the box.
+During testing to characterize UV output from the bulbs, bulb temperature was observed to played a dominant role on UV output. Ventilation was to be desired and a lateral box design prevented easy solutions. We also wanted to increase the amount of UV exposure the mask was getting to significantly reduce the amount of time the mask would need to be in the box.
 
 Version 2 was an improvement on multiple fronts. More bulbs (and therefore UV output), temperature sensor incorporation, door switch which activated the UV bulbs, and fans that activated based on temperature within the box. Communication between the electronics was accomplished with an Arduino Nano.
 
@@ -67,7 +67,7 @@ Version 3 improved cable management and physical construction of the box. ePTFE 
 
 {{< gallery album="pv3">}}
 
-Version 4 yet again iterated on the material of the box, this time to an aluminum composite which does not have pores and is able to withstand the rigourous material standards to allow for cleaning within hospitals. It also employed relays (timed and standard) for control circuity, eliminating the need for the Arduino.
+Version 4 yet again iterated on the material of the box, this time to an aluminum composite which does not have pores and is able to withstand the rigorous material standards to allow for cleaning within hospitals. It also employed relays (timed and standard) for control circuity, eliminating the need for the Arduino.
 
 {{< gallery album="pv4">}}
 
