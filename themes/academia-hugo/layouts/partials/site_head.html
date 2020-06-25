@@ -97,7 +97,7 @@
 
   {{/* We cannot use SRI with Google Fonts because the CSS is dynamically generated according to the user agent. */}}
   {{ with ($scr.Get "google_fonts") }}
-  <link rel="stylesheet" {{ printf "href=\"https://fonts.googleapis.com/css?family=%s&display=swap\"" . | safeHTMLAttr }}>
+  <link rel="stylesheet" {{ printf "href=\"https://fonts.googleapis.com/css?family=%s&amp;display=swap\"" . | safeHTMLAttr }} type="text/css" media="screen">
   {{ end }}
 
   {{ $css_options := (dict "targetPath" "css/academia.css" "outputStyle" "compressed") }}
