@@ -1,6 +1,6 @@
 ---
 title: 'The design of a UV-C Tower for Point-of-Care Decontamination of Personal Protective Equipment'
-subtitle: 'The SUDS (Synchronous UV Decontamination System) is a tool that can deliver more than $2J/cm^2$ of UV energy per minute to N95 masks and other facepiece Respirators that healthcare workers and clinicians use during the care of those infected by nCoV-2019. It is rapidly deployable, safe, and easy for healthcare workers in the front line to take advantage of. This system offers an alternative to potentially hazardous reuse of masks in the setting of shortages.'
+subtitle: 'The SUDS (Synchronous UV Decontamination System) is a tool that can deliver more than $2J/cm^2$ of UV energy per minute to N95 masks and other facepiece respirators that healthcare workers and clinicians use during the care of those infected by nCoV-2019. It is rapidly deployable, safe, and easy for healthcare workers in the front line to take advantage of. This system offers an alternative to potentially hazardous reuse of masks in the setting of shortages.'
 summary: This is a tool that can help front-line healthcare workers decontaminate their masks of virus particles in the setting of the COVID-19 pandemic where mask shortages are widespread.
 authors:
 tags:
