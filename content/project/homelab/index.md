@@ -1,6 +1,6 @@
 ---
 title: Home Lab
-summary: While humble, my home lab serves to be the centerpoint of home security, internet management, media consumption, and many other utilities.
+summary: With two physical servers and other networking and storage devices, my home lab serves to be the centerpoint of home security, internet management, media consumption, and many other utilities.
 tags:
 - medicine
 - software
