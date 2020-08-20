@@ -77,3 +77,23 @@ image:
 	- DHCP
 	- Short leases
 	
+#### Server Configuration
+- Server 1
+	- Music VM [Alpine Linux]
+	- Webserver VM [Alpine Linux]
+	- Network Utilities VM [Alpine Linux]
+	- Docker VM #2 [Alpine Linux]
+	- Docker VM #3 [Alpine Linux]
+	- Surveillance VM [Alpine Linux]
+	- Storage VM [FreeNAS]
+	- Personal Computer VM [Windows 10 Pro]
+
+- Server 2
+	- Docker VM #1 [Alpine Linux]
+	- Plex VM [Alpine Linux]
+	- Machine Learning VM [Ubuntu Server]
+	- Storage VM [FreeNAS]
+	- Windows Server VM [Windows Server 2016]
+	- Webserver VM [Alpine Linux]
+
+
