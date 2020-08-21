@@ -2,7 +2,6 @@
 title: Home Lab
 summary: With two physical servers and other networking and storage devices, my home lab serves to be the centerpoint of home security, internet management, media consumption, and many other utilities.
 tags:
-- medicine
 - software
 - hardware
 date: "2018-12-05T00:00:00Z"
@@ -23,7 +22,7 @@ image:
 - 8 Port PoE Managed Switch [Ubiquiti UniFi Switch US-8] 
 - 2 x PoE Access Points [Ubiquiti UniFi AP UAP-AC-PRO-US]
 - 2 x 5 Port Switch [Netgear GS105NA]
-- Physical NAS [Synology DS713+] {8 Tb, BTRFS, RAID0}
+- Physical NAS [Synology DS713+] {8 Tb, BTRFS, RAID-0}
 - TV Tuner [HDHomeRun Prime]
 
 #### Server Hardware
@@ -77,23 +76,65 @@ image:
 	- DHCP
 	- Short leases
 	
-#### Server Configuration
+#### Server Configuration & Docker Applications
+{{< row >}}
+{{< column >}}
 - Server 1
 	- Music VM [Alpine Linux]
+		- Airsonic
+		- Mopidy
+		- Snapcast Snapserver
 	- Webserver VM [Alpine Linux]
+		- NGINX
+		- Let's Encrypt
 	- Network Utilities VM [Alpine Linux]
+		- OpenVPN
+		- Unifi Controller
+		- PiHole
 	- Docker VM #2 [Alpine Linux]
+		- FreshRSS
+		- Syncthing
+		- Pyload
+		- Jupyter Datascience Notebook
+		- Grocy
+		- Transmission
+		- Portainer
+		- Jackett
+		- Ubooquity
+		- Calibre Web
 	- Docker VM #3 [Alpine Linux]
+		- Jitsi Stack
+		- Nextcloud w/ MariaDB
+		- Guacamole w/ MariaDB
 	- Surveillance VM [Alpine Linux]
+		- Shinobi CCTV
 	- Storage VM [FreeNAS]
+		- RAID-Z1: 10Tb Drives
+		- RAID-Z0 Striped: 5Tb Drives
 	- Personal Computer VM [Windows 10 Pro]
-
+{{< /column >}}
+{{< column >}}
 - Server 2
 	- Docker VM #1 [Alpine Linux]
+		- Sonarr
+		- Radarr
+		- Lidarr
+		- NZBGet
+		- NZBHydra
+		- Tautulli
+		- PiHole
 	- Plex VM [Alpine Linux]
+		- Plex
 	- Machine Learning VM [Ubuntu Server]
+		- *GPU Passthrough*
+		- TensorFlow Jupyter Notebook
+		- WireGuard [Upcoming]
 	- Storage VM [FreeNAS]
+		- RAID-Z1: 10Tb Drives
 	- Windows Server VM [Windows Server 2016]
-	- Webserver VM [Alpine Linux]
 
+&nbsp;
 
+Cron jobs on every VM are used rsync configurations to the redundant datastore on server 1's storage server every night. Snapshots are made three times a week.
+{{< /column >}}
+{{< /row >}}
