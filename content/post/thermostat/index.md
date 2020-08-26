@@ -57,7 +57,7 @@ This state information is already provided to Home Assistant via the Harmony API
 {{< figuresimp src="prototype_b.jpg" alt="Prototype Board" position="right" style="float: right;width: 23%;padding-left:1%; min-width: 200px; " >}}
 Since I had a Raspberry Pi handy, I used that as the controller but this circuit could just as easily have been driven by a WiFi-enabled Arduino.
 Temperature information is obtained by a [DS18B20](https://www.adafruit.com/product/381) and relayed to the Pi with the 1-Wire protocol.
-A simple prototype board adapts the wires of the DS18B20 and also containing a LED and resistor that can be driven by a 3.3V digital signal.
+A simple prototype board adapts the wires of the DS18B20 and also contains a LED and resistor that can be driven by a 3.3V digital signal.
 I wrote a Go program (compiled for the Pi) that reads information from the temperature sensor and also drives the LED with the Raspberry Pi's GPIO when the program is active.
 
 A Home Assistant [command line sensor](https://www.home-assistant.io/integrations/sensor.command_line/) remotely executes the Go-based temperature reading program every 20 seconds. 
@@ -76,7 +76,7 @@ If the file has a 1, the LED activates during program operation, and if 0 then i
 If more configurable options present themselves, I'll create a more sophisticated configuration file in the future.
 I also wrote simple bash scripts to control the value of this file -- scripts that can also be called with webhooks through Home Assistant's [shell commands](https://www.home-assistant.io/integrations/shell_command/).
 
-Put together, the Home Assistant instance reads the temperature every 20 seconds. If the temperature is higher than a threshold, it turns on the AC. When the temperature falls below a threshold, it turns off the AC. When the TV is on, it doesn't control the temperature since the noise of the AC can interfere with sounds from the TV. When day the day starts, Home Assistant writes a "1" to the led-controlling binary file and when night starts, it writes a 0. All these options can be easily controlled from a dashboard in the Home Assistant (on the right).
+Put together, the Home Assistant instance reads the temperature every 20 seconds. If the temperature is higher than a threshold, it turns on the AC. When the temperature falls below a threshold, it turns off the AC. When the TV is on, it doesn't control the temperature since the noise of the AC can interfere with sounds from the TV. When day the day starts, Home Assistant writes a "1" to the led-controlling binary file and when night starts, it writes a "0". All these options can be easily controlled from a custom created dashboard in the Home Assistant (on the right).
 
 {{< figuresimp src="schematic.png" alt="Information Flow" style="float: left;width: 48%;padding-right:2%; min-width: 370px; " >}}
 Logic on whether to turn on the AC runs every 20 seconds and is evaluated with Home Assistant [templating](https://www.home-assistant.io/docs/configuration/templating/), in turn driven by the [Jinja2](https://palletsprojects.com/p/jinja/) templating engine. Templates are stored in Home Assistant YAML configuration files.
