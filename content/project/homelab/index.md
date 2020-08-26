@@ -89,7 +89,8 @@ image:
 		- Snapcast Snapserver
 	- Webserver VM [Alpine Linux]
 		- NGINX
-		- Let's Encrypt
+		- Certbot
+		- Fail2ban
 	- Network Utilities VM [Alpine Linux]
 		- OpenVPN
 		- Unifi Controller
