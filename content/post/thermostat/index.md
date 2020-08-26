@@ -1,7 +1,7 @@
 ---
 title: 'Fixing a faulty AC unit with Go and a temperature sensor'
-subtitle: 'In this project, I use a Pi to poll a temperature sensor near my the bed. Home Assistant accesses the data through webhooks and then automatically controls my window AC unit through my universal remote. This optimizes temperature near my bed instead of temperature near the AC unit.'
-summary: In this project, I use a Pi to poll a temperature sensor near my the bed. Home Assistant accesses the data through webhooks and then automatically controls my window AC unit through my universal remote. This optimizes temperature near my bed instead of temperature near the AC unit.
+subtitle: 'In this project, I use a Pi to poll a temperature sensor near the bed. Home Assistant accesses the data through webhooks and then automatically controls my window AC unit through my universal remote. This optimizes temperature near my bed instead of temperature near the AC unit.'
+summary: In this project, I use a Pi to poll a temperature sensor near the bed. Home Assistant accesses the data through webhooks and then automatically controls my window AC unit through my universal remote. This optimizes temperature near my bed instead of temperature near the AC unit.
 authors:
 tags:
 - software
