@@ -1,5 +1,5 @@
 ---
-title: 'A low-cost, open source, self-contained bacterial EVolutionary biorEactor (EVE)'
+title: 'Building the low-cost, open source, self-contained bacterial EVolutionary biorEactor (EVE)'
 subtitle: 'The EVolutionary biorEactor is a tool to study the evolution of drug resistance in bacteria. The paths that identical organisms take to achieve resistance to the same drug differs due to the inherent randomness of evolution. By monitoring the phenotypes (and potentially also genotypes) of multiple cultures grown in similar conditions, we can get an idea of which evolutionary paths occur most frequently and target drugs consequently.'
 summary: The EVolutionary biorEactor is a tool to study the evolution of drug resistance in bacteria.
 authors:
