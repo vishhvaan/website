@@ -45,7 +45,7 @@ education:
     year: 2012
 
 books:
-- The Eye of the World by Robert Jordan
+- The Way of Kings by Brandon Sanderson
 
 # Social/academia Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -54,7 +54,7 @@ books:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:vxg135@case.edu'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:me@vishhvaan.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/vishhvaan
@@ -82,6 +82,8 @@ user_groups:
 - Researchers
 ---
 
-I am a biomedical engineer who went to medical school. My alma maters are the University of Michigan at Ann Arbor and Cleveland Clinic Lerner College of Medicine at Case Western Reserve University respectively.
+I build tools and improve technology so that doctors can treat patients more effectively and efficiently. Check out my [projects](/#projects) for more details.
 
-My broad goals are to engineer solutions to medical problems. I have taken on hardware and software projects before. In the future, I aim to focus on software projects. 
+I went to the University of Michigan at Ann Arbor to get my masters and bachelors in biomedical engineering. Then headed to the Cleveland Clinic Lerner College of Medicine at Case Western Reserve University to get my Medical Degree.
+
+In my spare time, I build mechanical keyboards, maintain a music blog, read, and work on my home lab.
