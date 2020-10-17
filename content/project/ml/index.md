@@ -1,6 +1,6 @@
 ---
 title: Machine Learning
-summary: Find associations and making models from clinical data.
+summary: Finding associations and making models from clinical data.
 tags:
 - medicine
 - software
