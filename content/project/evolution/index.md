@@ -1,6 +1,6 @@
 ---
 title: Evolution
-summary: Studies on the evolution of drug resistance. Creation of drug schedules to overcome resistance formation.
+summary: I build tools to investigate the evolution of drug resistance in bacteria and cancer. Eventually, these tools can be used to create optimal drug sequences to combat the formation of resistance on a per patient basis.
 tags:
 - medicine
 - software
