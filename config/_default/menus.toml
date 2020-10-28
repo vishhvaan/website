@@ -23,10 +23,10 @@
   url = "#gallery"
   weight = 40
 
-#[[main]]
-  #name = "Tags"
-  #url = "#tags"
-  #weight = 50
+[[main]]
+  name = "La Fée Berde"
+  url = "https://lafeeberde.vishhvaan.com/"
+  weight = 50
 
 [[main]]
   name = "Contact"
