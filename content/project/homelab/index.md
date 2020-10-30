@@ -139,6 +139,6 @@ image:
 
 &nbsp;
 
-Cron jobs on every VM are used rsync configurations to the redundant datastore on server 1's storage server every night. Snapshots are made three times a week and replicated on server 2's storage server (also redundant).
+Cron jobs on every VM rsync configurations to the redundant datastore on server 1's storage server every night. Snapshots are made three times a week and replicated on server 2's storage server (also redundant).
 {{< /column >}}
 {{< /row >}}
