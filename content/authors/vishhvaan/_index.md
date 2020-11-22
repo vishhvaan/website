@@ -14,11 +14,11 @@ btn:
 superuser: true
 
 # Role/position
-role: M.D., M.S.E. | Postdoctoral Fellow
+role: M.D., M.S.E. | Research Associate
 
 # Organizations/Affiliations
 organizations:
-- name: Cleveland Clinic Lerner College of Medicine at Case Western Reserve University
+- name: Cleveland Clinic Department of Translational Hematology & Oncology Research
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
