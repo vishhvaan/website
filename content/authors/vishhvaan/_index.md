@@ -45,7 +45,7 @@ education:
     year: 2012
 
 books:
-- The Way of Kings by Brandon Sanderson
+- The Great Hunt by Robert Jordan
 
 # Social/academia Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
