@@ -1,7 +1,9 @@
+@import '$lib/scss/fonts/iosevka-slab.scss';
+
 :root {
 	// Fonts
-	--font--default: Barlow, sans-serif;
-	--font--title: YoungSerif, serif;
+	--font--default: 'Iosevka Slab Web', sans-serif;
+	--font--title: 'Iosevka Slab Web', sans-serif;
 	--font--mono: Ubuntu Mono, monospace;
 
 	// Grabbed from open-props.style
