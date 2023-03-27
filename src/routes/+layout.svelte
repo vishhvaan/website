@@ -1,6 +1,6 @@
 <script>
-    import "../app.css";
-    import '../fonts/iosevka-slab.css';
+    import '$lib/scss/global.scss';
+    // import '$lib/fonts/iosevka-slab.css';
 </script>
   
 <slot />
