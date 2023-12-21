@@ -17,6 +17,8 @@ body {
 	fill: var(--color--text);
 	transition: all 0.4s ease;
 	font-family: var(--font--default);
+	
+	font-weight: 400;
 	line-height: 1.725;
 	scroll-behavior: smooth;
 
@@ -27,11 +29,12 @@ body {
 
 	margin: 0;
 	overflow-x: hidden;
+	text-rendering: geometricPrecision;
 }
 
 html {
 	scroll-behavior: smooth;
-	font-size: 18px;
+	font-size: 14px;
 }
 
 #svelte-root {

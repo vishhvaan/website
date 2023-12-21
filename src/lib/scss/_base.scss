@@ -4,6 +4,11 @@
 	@include padded-container;
 }
 
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 .content{
 	position: relative;
 	display: flex;
