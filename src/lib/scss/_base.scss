@@ -4,6 +4,15 @@
 	@include padded-container;
 }
 
+.content{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	overflow-wrap: break-word;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
 ul,
 ol {
 	margin: 10px 0 10px 40px;

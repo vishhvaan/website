@@ -3,8 +3,8 @@
 
 @mixin padded-container {
 	width: 100%;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 2rem;
+	padding-left: 2rem;
 	margin-right: auto;
 	margin-left: auto;
 
@@ -19,12 +19,12 @@
 	}
 
 	@include for-tablet-landscape-up {
-		padding-right: 30px;
-		padding-left: 30px;
+		padding-right: 2rem;
+		padding-left: 2rem;
 	}
 
 	@include for-desktop-up {
-		max-width: 1080px;
+		max-width: 48rem;
 	}
 }
 
