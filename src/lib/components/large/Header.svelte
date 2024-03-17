@@ -1,8 +1,16 @@
-<header>
-    <a href="/">
-        <div id="logo" style="background-image: url('%sveltekit.assets%/images/logo.jpg')"></div>
-    </a>
+<script>
+	import Logo from '$lib/components/medium/Logo.svelte';
+</script>
 
-</header>
 
-<h1>Vishhvaan Gopalakrishnan</h1>
+<a href="/">
+    <div id="logo" style="background-image: url('%sveltekit.assets%/images/logo.jpg')"></div>
+</a>
+
+<div class="header">
+    <Logo />
+</div>
+
+<style lang="scss">
+
+</style>
