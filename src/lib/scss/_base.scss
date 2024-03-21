@@ -1,8 +1,5 @@
 // Styles that are used everywhere
 
-.container {
-	@include padded-container;
-}
 
 *:before,
 *:after {
@@ -10,12 +7,7 @@
 }
 
 .content{
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	overflow-wrap: break-word;
-	padding-top: 4rem;
-	padding-bottom: 4rem;
+	@include padded-container;
 }
 
 ul,

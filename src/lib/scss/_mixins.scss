@@ -8,6 +8,13 @@
 	margin-right: auto;
 	margin-left: auto;
 
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	overflow-wrap: break-word;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+
 	@include for-iphone-se {
 		padding-left: 0;
 		padding-right: 0;
@@ -47,3 +54,8 @@
 			var(--color--text-inverse)
 		)};
 }
+
+@mixin antialias() {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+  }
